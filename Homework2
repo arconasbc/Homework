@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		double a = 4.5;
+		double b = 8;
+		double c = 7.3;
+		double p = (a + b + c) / 2;
+		double s = Math.sqrt(p * (p - a) * (p - b) * (p - c));
+		System.out.println("Площадь треугольника равна " + s);
+	}
+}
